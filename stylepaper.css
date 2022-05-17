@@ -1,0 +1,32 @@
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+}
+
+.pdf {
+    display: flex;
+    margin-left: 18em;
+    margin-right: auto;
+}
+
+header h1 {
+    color: #16e0bd;
+    font-family: var(--ff-primary);
+    text-align: center;
+}
+
+header h2 {
+    font-family: var(--ff-primary);
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: var(--ff-primary);
+    text-align: center;
+    justify-content: space-between;
+}
+
+.please {
+    color: #16e0bd;
+}
