@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="stylepaper.css">
+    <link rel="stylesheet" href="css/stylepaper.css">
     <script src="https://kit.fontawesome.com/00470dd4aa.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -29,10 +28,11 @@
     <h3 class="please" data-aos="fade-in">Please use the tools provided below the paper if you would like to read the
         content.</h3>
     <div class="pdf">
-        <a href="https://online.flippingbook.com/view/935393822/" class="fbo-embed" data-fbo-id="935393822"
-            data-fbo-lightbox="yes" data-fbo-width="960px" data-fbo-height="740px" data-fbo-version="1"
-            style="max-width: 100%">ICTACSE-2022 Contents-pages-160-164</a>
-        <script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=935393822"></script>
+        <div id="embeddedView"></div>
+        <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
+    </div>
+        <script src="paperjs.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init({
@@ -40,6 +40,8 @@
                 once: true,
             });
         </script>
+
+        <script></script>
     </div>
 </body>
 </head>
